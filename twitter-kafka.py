@@ -7,10 +7,10 @@ from time import sleep
 from json import dumps
 from kafka import KafkaProducer
 
-consumer_key = 'FyQTtoLzVdf7qgufWx98v390n'
-consumer_secret = 'QS1bkqJK3Cu5xSMMx1Lh3wAgO2nrwfuK9ZHsEl4bd9OdOZSKfh'
-access_token = '1385771330214240259-HtQ2EVontcVPEJqMbpnqAl1ffp0mCV'
-access_token_secret = 'MTo3abg96QGZL3a2S6pkn7EWiG08XF2xkUd9WjcOLuuEq'
+consumer_key = '///////////////'
+consumer_secret = '///////////////'
+access_token = '///////////////'
+access_token_secret = '///////////////'
 
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
