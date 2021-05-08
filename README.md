@@ -11,8 +11,7 @@ For example:
   •	Hdp 2.6.5
   •	Python 3.6 or 3.7
   •	Kafka 1.1.2 
-  •	Spark 2.4.7
-  •	Pyspark
+  •	Pyspark 2.4.7 or 2.4.6
   •	tweepy
 
 Project Pipeline:
@@ -21,6 +20,16 @@ Project Pipeline:
    3. consume this data using spark and make some sentiment analysis and reply on these tweets based on this sentiment analysis
    4. save data as a paruet files on hdfs and create hive table 
    5. connect powerBI using ODBC with hive tables to get data from and make the required visualization
+   
+Configurations used to make a virtual environment to work on:
+
+	python3.6 -m venv ./iti41
+	source iti41/bin/activate
+	pip install --upgrade pip
+	pip install confluent-kafka
+	pip install pyspark
+	pip install tweepy
+	pip install --force-reinstall pyspark==2.4.6
  
 Some configurations to connect with twitter API
   consumer_key = 
